@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query Example</title>
+  <style>
+    /* Default styling */
+    body{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100vh;
+        text-align: center;
+
+    }
+    div {
+      width: 300px;
+      height: 200px;
+      background-color: skyblue;
+      margin: 50px auto;
+      text-align: center;
+      line-height: 200px;
+      font-size: 20px;
+      border-radius: 10px;
+
+    }
+
+    @media (max-width: 600px) {
+      div {
+        background-color: lightcoral; /* changes color */
+      }
+    }
+
+    @media (max-width: 400px) {
+      div {
+        background-color: lightgreen; /* another color for very small screen */
+      }
+    }
+    @media print{
+        div{
+            background-color: purple;
+        }
+    }
+  </style>
+</head>
+<body>
+  <div>Resize Me!</div>
+</body>
+</html>

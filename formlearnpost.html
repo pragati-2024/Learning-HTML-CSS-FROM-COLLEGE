@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      method="post"
+      action="https://webhook.site/79cbff23-d80d-47f6-bd28-62cffeccd22c"
+    >
+      <label for="first-name">First Name</label>
+      <input type="text" name="fname" id="first-name" />
+      <br /><br />
+
+      <label for="last-name">Last Name</label>
+      <input type="text" name="lname" id="last-name" />
+      <br /><br />
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" />
+      <br /><br />
+
+      <label for="">Courses</label>
+      <select name="courses" id="">
+        <option value="">btech</option>
+        <option value="">cs</option>
+      </select>
+
+      <label for="">Gender</label>
+      <input type="radio" name="Gender" id="male" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="female" value="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="trans" id="trans" value="trans" disabled />
+      <label for="trans">Trans</label>
+
+      <br />
+      <br />
+      <!-- name dena pdega  name=option[] value and id will be empty -->
+      <label for="">Hobbies</label>
+      <input type="checkbox" name=option[html,css,js] value="name" na id="" />
+      <label for="html">HTML</label>
+      <input type="checkbox" name="css" value="css" id="" />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="js" id="" />
+      <label for="js">JS</label>
+
+      <br /><br />
+      <button type="submit" name="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

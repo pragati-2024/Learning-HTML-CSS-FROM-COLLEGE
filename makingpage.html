@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      header {
+        background-color: lightblue;
+        padding: 0.5px;
+        padding-left: 10px;
+      }
+      .nav {
+        background-color: black;
+        padding: 10px;
+      }
+
+      .nav a {
+        color: white;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-right: 1px solid white;
+      }
+      .content h1 {
+        color: black;
+      }
+      .content p {
+        color: rgb(156, 79, 156);
+      }
+      .layout {
+        display: flex; /* Horizontal layout */
+        justify-content: space-between;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .content {
+        flex: 3; /* Main content takes more space */
+      }
+
+      .sidebar {
+        flex: 1; /* Sidebar on the right */
+        background-color: #f4f4f4;
+        padding: 15px;
+        border-left: 4px solid purple;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Site Name</h1>
+    </header>
+    <nav>
+      <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </nav>
+    <main class="layout">
+      <div class="content">
+        <h1>Page Heading</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+          scelerisque aliquam odio et faucibus. Nulla rhoncus feugiat eros quis
+          consectetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          At omnis dolorem optio reprehenderit, sed repellat accusamus,
+          repudiandae voluptate sit maiores rem excepturi magnam quam? Incidunt
+          repellat assumenda, adipisci illum eveniet autem modi reiciendis
+          numquam! Vel, itaque atque. Architecto optio dolores, temporibus
+          laborum ipsam beatae qui tempora commodi officia labore aperiam.
+        </p>
+      </div>
+      <aside class="sidebar">
+        <h3>About</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eos
+          maxime consectetur ab quos, sequi accusamus dignissimos provident in
+          corporis, atque et necessitatibus ratione veniam, fugiat autem
+          molestiae. Aspernatur hic odit eveniet. Adipisci placeat voluptates
+          harum earum, eligendi, quis quod dicta reiciendis dolor, ducimus
+          delectus at nihil repellat numquam quia nisi. Voluptas nihil similique
+          doloribus minus facere consequatur ex, vitae officia quas, rem
+          doloremque quos mollitia beatae harum officiis? Optio dolores
+          inventore error dolor aliquid rerum repellendus iste odio. Molestias
+          velit nobis, cum nihil qui repellendus pariatur eum optio, quidem est
+          debitis! Voluptate voluptatibus necessitatibus laboriosam sapiente
+          amet beatae illo facilis, natus enim dignissimos harum tempora,
+          molestiae repellat, nisi repudiandae? Unde aliquam maxime similique
+          dolore consectetur hic eum ab, vero ut, ex quidem molestiae sit! Sequi
+          autem voluptatibus, labore dolore esse odit natus velit ipsam quidem
+          quos nulla eos debitis at ullam veniam repellat neque voluptates!
+          Aspernatur beatae tempore nemo! Labore numquam officia aspernatur
+          corporis in nihil dignissimos magnam, sint eaque ad ipsum eum neque,
+          delectus voluptatum voluptas placeat temporibus nesciunt soluta
+          tempora accusamus illum, nam modi tempore! Ad itaque nobis odit eos?
+          Ipsam accusantium optio reprehenderit obcaecati laborum, facere minima
+          debitis. Magni libero doloremque nulla quaerat saepe ducimus at
+          eveniet, iure odit aut illo repudiandae a assumenda expedita
+          dignissimos quod, eos quibusdam facere. Ut quaerat aliquam ipsum quam
+          quo at assumenda aut officia fugit, nemo saepe, ipsa facilis nobis
+          delectus distinctio.
+
+        </p>
+      </aside>
+    </main>
+  </body>
+</html>
