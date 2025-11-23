@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            display:flex;
+            justify-content: center;
+            color:palevioletred;
+        }
+        .card{
+            border:1px solid black;
+            width:30vw;
+            height:50vh;
+            display: flex;
+            justify-content:center;
+            align-items:center;
+            margin-left:15rem;
+            border-radius:20px;
+            box-shadow:10px 20px 15px pink;
+            transition:
+                background-color 0.8s ease,
+                transform 0.8s ease-in-out,
+                box-shadow 0.6s ease,
+                border-radius 0.8s ease;
+        }
+        .card::after{
+             content: " click me";
+        }
+        .card:hover::after{
+            content:"I AM CHANGED";
+        }
+        .card:hover{
+            border-radius:50%; 
+            background-color:burlywood;
+            box-shadow: 5px 10px 20px gray;
+            color:pink;
+            transform: scale(1.1) rotate(50deg);
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover over me</h1>
+    <div class="card">
+       
+    </div>
+</body>
+</html>

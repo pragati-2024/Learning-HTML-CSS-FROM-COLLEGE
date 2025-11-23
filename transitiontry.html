@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+        }
+        h1{
+            text-align: center;
+            color: black;
+        }
+        p{
+            text-align:center;
+            color: purple;
+        }
+       
+        .card{
+           display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rosybrown;
+            height:200px;
+            width:200px;
+            margin-left:80vh;
+            border-radius:10px;
+            box-shadow: 0 4px 10px pink;
+            transition:
+                background-color 0.8s ease,
+                tranform 0.6s ease-in-out,
+                box-shadow 0.8s ease,
+                border-radius 0.6s;
+
+        }
+        .card:hover{
+            background-color:palevioletred;
+            transform : scale(1.1) rotate(5deg);
+            border-radius:10rem;
+            box-shadow: 0ps 10px 50px purple;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS DEMONSTRATION</h1>
+    <p>Hover over me to see the transition</p>
+    <div class="card">HOVER OVER ME</div>
+
+</body>
+</html>
